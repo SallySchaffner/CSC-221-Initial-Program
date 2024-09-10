@@ -1,9 +1,13 @@
-// CSC 221 Initial Program.cpp : For Chapter 2 Checkpoint 14 program.
-//
-
+// Display my initials
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Chapter 2 Programs\n";
+	char first, middle, last;
+	first = 'S';
+	middle = 'K';
+	last = 'S';
+	cout << first << middle << last << endl;
+	return 0;
 }
